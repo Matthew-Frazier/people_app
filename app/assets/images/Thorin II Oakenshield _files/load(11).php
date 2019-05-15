@@ -1,0 +1,3 @@
+body.skin-oasis .eraicon-dropdown{padding:10px;white-space:nowrap;font-size:13px}body.skin-oasis .page-header__contribution > div:first-child{display:flex}body.skin-oasis .page-header__eraicons{position:absolute;top:10px;right:0}body.skin-oasis .eraicon{margin-right:10px}body.skin-oasis .eraicon:last-child{margin-right:0}
+
+/* cache key: lotr:resourceloader:filter:minify-css:7:38878326070d1507224e3a047a9a180d */

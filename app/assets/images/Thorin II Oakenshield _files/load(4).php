@@ -1,0 +1,3 @@
+;(function(window,$,mw){'use strict';var username=mw.config.get('wgUserName');if(window.disableUsernameReplace||!username){return;}window.disableUsernameReplace=!0;var $rail=$('#WikiaRail'),customSelector=window.UsernameReplaceSelector?', '+window.UsernameReplaceSelector:'';function inputUsername($content){$content.find('.InputUsername, .insertusername'+customSelector).text(username);}mw.hook('wikipage.content').add(inputUsername);if($rail.hasClass('loaded')){inputUsername($rail);}else if($rail.exists()){$rail.on('afterLoad.rail',$.proxy(inputUsername,null,$rail));}})(window,jQuery,mediaWiki);;;mw.loader.state({"wikia.fake.articles.c2f573eb348d5d5945933a62a77b4be5":"ready"});
+
+/* cache key: lotr:resourceloader:filter:minify-js:7:26a3d94f3f0953bef5ea96bd2005bb36 */
